@@ -1,0 +1,22 @@
+// 节点、分流规则或重写规则的配置片段，各类型片段文件可通过引用功能（[server_remote]、[filter_remote]、[rewrite_remote]）使用。文件将保存在 Quantumult X 目录下的 Profiles 子目录中。
+// 片段样例可参见 https://raw.githubusercontent.com/crossutility/Quantumult-X/master/server-complete.txt
+// 使用方式：
+// [server_remote]
+// the-file-you-create.txt, tag=电信优化
+
+
+;shadowsocks=example.com:80, method=chacha20, password=pwd, obfs=http, obfs-host=bing.com, obfs-uri=/resource/file, fast-open=false, udp-relay=false, server_check_url=http://www.apple.com/generate_204, tag=ss-01
+
+ss://YWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUSFZNQkhEQDE5OC4xNDcuMjIuODc6Mzk3NzI=#f-%f0%9f%87%ba%f0%9f%87%b8+US_1443
+ss://YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2QDEwNy4xODEuMTY2LjU1OjMzOTky#%f0%9f%87%ba%f0%9f%87%b8+US_1406+%7c27.28Mb
+trojan://W3ADSjTHjxN3Nt28WC@pro-us1-4.sstr-api.xyz:443?sni=pro-us1-4.sstr-api.xyz#_134+%7c+2.31Mb
+trojan://W3ADSjTHjxN3Nt28WC@pro-us1-1.sstr-api.xyz:443?sni=pro-us1-1.sstr-api.xyz#_133+%7c+5.09Mb
+vmess://ew0KICAidiI6ICIyIiwNCiAgInBzIjogImYtaGFuZ3pob3UiLA0KICAiYWRkIjogInVzLjE5OTMwMS54eXoiLA0KICAicG9ydCI6ICIzMDAxMCIsDQogICJpZCI6ICJmZDAwOTI3YS1iMGMyLTQ2MjktYWVmNy1kOWZmMTVhOWQ3MjIiLA0KICAiYWlkIjogIjE2IiwNCiAgIm5ldCI6ICJ3cyIsDQogICJ0eXBlIjogIm5vbmUiLA0KICAiaG9zdCI6ICJ1cy4xOTkzMDEueHl6IiwNCiAgInBhdGgiOiAiL3dlYnNvY2tldCIsDQogICJ0bHMiOiAiIiwNCiAgInNuaSI6ICIiDQp9
+ss://YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2QDY2LjExNS4xNDcuOTI6MzM5OTI=#66.115.147.92%3a33992
+trojan://W3ADSjTHjxN3Nt28WC@pro-us1-3.sstr-api.xyz:443?sni=pro-us1-3.sstr-api.xyz#_135+%7c10.10Mb
+trojan://W3ADSjTHjxN3Nt28WC@pro-us1-2.sstr-api.xyz:443?sni=pro-us1-2.sstr-api.xyz#_132+%7c+6.04Mb
+ss://YWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUSFZNQkhEQDEzOC4xOTkuMTkuMTM0OjM5Nzcy#138.199.19.134%3a39772
+ss://YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2QDIwOC43OC40MS4xOTc6MzM5OTI=#208.78.41.197%3a33992
+ss://YWVzLTI1Ni1nY206Q1VuZFNabllzUEtjdTZLajhUSFZNQkhEQDE1Ni4xNDYuNjIuNDE6Mzk3NzI=#156.146.62.41%3a39772
+ss://YWVzLTI1Ni1nY206OG42cHdBY3JydjJwajZ0RlkycDNUYlE2QDIwNy4yNDQuNjcuMTQ5OjMzOTky#%f0%9f%87%ba%f0%9f%87%b8+US_1437+%7c15.27Mb
+trojan://355148e3-45c6-4af5-ab32-3e533839325d@fuckxijinping.cf:443#%f0%9f%87%ba%f0%9f%87%b8+US_1455+%7c22.49Mb
